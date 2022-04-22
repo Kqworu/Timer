@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>timer</title>
+    <meta charset="utf-8">
+    <meta description="timer です">
+    <link rel="stylesheet" href="timer.css">
+</head>
+
+<body>
+    <h1>TIMER</h1>
+    <h2>計りたい時間をチェックし、SETを押します<br>SETを押すとstratボタンが出るので、ボタンを押してタイマーを始動させます</h2>
+
+    <div>
+        <input type="radio" name="time" class="select-time" id="one" checked="checked">1 minutes
+        <input type="radio" name="time" class="select-time" id="three">3 minutes
+        <input type="radio" name="time" class="select-time" id="five">5 minutes
+        <input type="radio" name="time" class="select-time" id="ten">10 minutes
+    </div>
+
+    <button class="btn" id="set">SET</button>
+
+    <p id="count">????</p>
+
+    <div id="start-box">
+        <button class="btn" id="start">START</button>
+    </div>
+
+    <script type="text/javascript" src="timer.js"></script>
+</body>
+
+</html>

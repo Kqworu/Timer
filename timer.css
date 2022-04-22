@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.select-time {
+    margin: 30px;
+    transform: scale(2.0);
+}
+
+.btn {
+    font-size: 30px;
+}
+
+#count {
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    padding: 100px;
+    margin: 30px;
+}
+
+#start-box {
+    display: flex;
+    justify-content: center;
+}
+
+#start {
+    display: none;
+}
